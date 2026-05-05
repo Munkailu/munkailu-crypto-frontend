@@ -2,8 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../App";
 
-const API_BASE = import.meta.env.VITE_API_BASE || "http://localhost:5000";
-
+const API_BASE = "https://munkailu-crypto-backend.onrender.com";
 function AddCrypto() {
   const { token } = useAuth();
   const navigate = useNavigate();

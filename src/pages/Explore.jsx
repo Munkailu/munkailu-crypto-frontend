@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-const API_BASE = import.meta.env.VITE_API_BASE || "http://localhost:5000";
-
+const API_BASE = "https://munkailu-crypto-backend.onrender.com";
 function CryptoCard({ coin }) {
   const positive = parseFloat(coin.change24h) >= 0;
   return (

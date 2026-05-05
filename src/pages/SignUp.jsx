@@ -4,8 +4,7 @@ import delegateIcon from "../assets/delegate-3.svg";
 import developerIcon from "../assets/developerPlatformNavigation-2.svg";
 import businessIcon from "../assets/holdingCoin-3.svg";
 
-const API_BASE = import.meta.env.VITE_API_BASE || "http://localhost:5000";
-
+const API_BASE = "https://munkailu-crypto-backend.onrender.com";
 const accountTypes = [
   { title: "Personal", description: "Trade crypto as an individual.", icon: delegateIcon, alt: "Personal account" },
   {

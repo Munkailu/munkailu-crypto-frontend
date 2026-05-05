@@ -3,8 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "../App";
 
 // Base URL for backend – update this to your deployed Render URL
-const API_BASE = import.meta.env.VITE_API_BASE || "http://localhost:5000";
-
+const API_BASE = "https://munkailu-crypto-backend.onrender.com";
 function SignIn() {
   const navigate = useNavigate();
   const { setToken, setUser } = useAuth();
